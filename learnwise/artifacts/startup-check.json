@@ -1,0 +1,78 @@
+{
+  "checkedAt": "2026-09-24T13:56:40.340Z",
+  "checks": [
+    {
+      "cwd": "C:\\Users\\deeps\\OneDrive\\Desktop\\New folder",
+      "command": "npm run dev -- --port 5200 --strictPort",
+      "url": "http://127.0.0.1:5200/",
+      "status": "PASS",
+      "source": "main.tsx / ContextualQuiz"
+    },
+    {
+      "cwd": "C:\\Users\\deeps\\OneDrive\\Desktop\\New folder",
+      "command": "npm start -- --port 5201 --strictPort",
+      "url": "http://127.0.0.1:5201/",
+      "status": "PASS",
+      "source": "main.tsx / ContextualQuiz"
+    },
+    {
+      "cwd": "C:\\Users\\deeps\\OneDrive\\Desktop\\New folder",
+      "command": "npm.cmd run dev -- --port 5202 --strictPort",
+      "url": "http://127.0.0.1:5202/",
+      "status": "PASS",
+      "source": "main.tsx / ContextualQuiz"
+    },
+    {
+      "cwd": "C:\\Users\\deeps\\OneDrive\\Desktop\\New folder",
+      "command": "npm.cmd start -- --port 5203 --strictPort",
+      "url": "http://127.0.0.1:5203/",
+      "status": "PASS",
+      "source": "main.tsx / ContextualQuiz"
+    },
+    {
+      "cwd": "C:\\Users\\deeps\\OneDrive\\Desktop\\New folder\\learnwise\\",
+      "command": "npm run dev -- --port 5204 --strictPort",
+      "url": "http://127.0.0.1:5204/",
+      "status": "PASS",
+      "source": "main.tsx / ContextualQuiz"
+    },
+    {
+      "cwd": "C:\\Users\\deeps\\OneDrive\\Desktop\\New folder\\learnwise\\",
+      "command": "npm start -- --port 5205 --strictPort",
+      "url": "http://127.0.0.1:5205/",
+      "status": "PASS",
+      "source": "main.tsx / ContextualQuiz"
+    },
+    {
+      "cwd": "C:\\Users\\deeps\\OneDrive\\Desktop\\New folder\\learnwise\\",
+      "command": "npm.cmd run dev -- --port 5206 --strictPort",
+      "url": "http://127.0.0.1:5206/",
+      "status": "PASS",
+      "source": "main.tsx / ContextualQuiz"
+    },
+    {
+      "cwd": "C:\\Users\\deeps\\OneDrive\\Desktop\\New folder\\learnwise\\",
+      "command": "npm.cmd start -- --port 5207 --strictPort",
+      "url": "http://127.0.0.1:5207/",
+      "status": "PASS",
+      "source": "main.tsx / ContextualQuiz"
+    },
+    {
+      "cwd": "C:\\Users\\deeps\\OneDrive\\Desktop\\New folder",
+      "command": "START-LEARNWISE.cmd --port 5208 --strictPort",
+      "url": "http://127.0.0.1:5208/",
+      "status": "PASS",
+      "source": "main.tsx / ContextualQuiz"
+    },
+    {
+      "command": "npm.cmd run dev -- --port 5209 --strictPort",
+      "status": "PASS",
+      "behavior": "Occupied port fails clearly"
+    },
+    {
+      "command": "npm.cmd run dev -- --port 5209",
+      "status": "PASS",
+      "behavior": "Occupied port selects another port and prints URL"
+    }
+  ]
+}

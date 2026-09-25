@@ -1,0 +1,18 @@
+{
+  "name": "learnwise-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": ["learnwise"],
+  "scripts": {
+    "dev": "npm run dev --workspace=learnwise --",
+    "start": "npm run start --workspace=learnwise --",
+    "strt": "npm run start --workspace=learnwise --",
+    "build": "npm run build --workspace=learnwise --",
+    "typecheck": "npm run typecheck --workspace=learnwise --",
+    "test:startup": "node learnwise/scripts/verify-startup.mjs",
+    "preview": "npm run preview --workspace=learnwise --",
+    "test": "npm run test --workspace=learnwise --",
+    "test:e2e": "npm run test:e2e --workspace=learnwise --",
+    "format": "npm run format --workspace=learnwise --"
+  }
+}
